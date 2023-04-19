@@ -11,6 +11,9 @@ header{
     background-color: #020873;
     text-align: center;
 }
+.songs{
+    background-color: #ffffff;
+}
 ul {
     overflow: hidden;
     max-height: 0;
@@ -23,7 +26,7 @@ label {
     position: relative;
     user-select: none;
 }
-label span {
+section {
     background-color: #ffffff;
     display: block;
     height: 2px;
