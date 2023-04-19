@@ -21,6 +21,9 @@ header{
     color: #590242;
 
 }
+section h3{
+    text-align: center;
+}
 ul {
     overflow: hidden;
     max-height: 0;
