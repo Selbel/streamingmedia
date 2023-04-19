@@ -1,10 +1,14 @@
 html{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
 }
-
 body{
     background-color: #020659;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+}
+header{
+    background-color: #020873
 }
 ul {
     overflow: hidden;
