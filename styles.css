@@ -11,15 +11,35 @@ header{
     background-color: #020873;
     text-align: center;
 }
+nav li{
+    list-style: none;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    
+
+}
 #songs{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     color: #590242;
     background-color: #ffffff;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-content:  space-between;
 }
 #songs h3{
     text-align: center;
+}
+#playlists{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #2699FB;
+}
+#curated{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: #2104D9;
 }
 ul {
     overflow: hidden;
