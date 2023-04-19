@@ -26,7 +26,7 @@ label {
     position: relative;
     user-select: none;
 }
-section {
+label span {
     background-color: #ffffff;
     display: block;
     height: 2px;
