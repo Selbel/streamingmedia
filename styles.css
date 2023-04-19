@@ -12,6 +12,9 @@ header{
     text-align: center;
 }
 #songs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
     background-color: #ffffff;
 }
 ul {
