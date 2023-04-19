@@ -7,37 +7,6 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
 }
-.header{
-    background-color: #020873;
-    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-    position: fixed;
-    width: 100%;
-    z-index: 3;
-}
-.header ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    overflow: hidden;
-    background-color: #020873;
-}
-.header li a {
-    display: block;
-    padding: 20px 20px;
-    border-left: 1px solid #020873;
-    text-decoration: none;
-}
-.header li a:hover,
-.header .menu-btn:hover {
-  background-color: #f4f4f4;
-}
-.header .logo {
-    display: block;
-    float: left;
-    font-size: 2em;
-    padding: 10px 20px;
-    text-decoration: none;
-  }
 .header .menu {
     overflow: hidden;
     max-height: 0;
