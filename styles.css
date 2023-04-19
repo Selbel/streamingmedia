@@ -1,10 +1,12 @@
 <link rel="stylesheet" href="css/styles.css">
 html{
-    background-color:#020659;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
-backgound-color
+
+body{
+    background-color: #020659;
+}
 ul {
     overflow: hidden;
     max-height: 0;
