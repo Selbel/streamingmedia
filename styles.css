@@ -11,15 +11,12 @@ header{
     background-color: #020873;
     text-align: center;
 }
-#trending-songs{
-    background-color: #ffffff;
-}
 #songs{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     color: #590242;
-
+    background-color: #ffffff;
 }
 #songs h3{
     text-align: center;
