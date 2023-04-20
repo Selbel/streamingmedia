@@ -260,59 +260,7 @@ h2, h3{
     grid-column-end: 3;
     background-color: #2104D9;
 }
-ul {
-    overflow: hidden;
-    max-height: 0;
-    transition: max-height .2s ease-out;
-}
-.header {
-    cursor: pointer;
-    display: inline-block;
-    padding: 28px 20px;
-    position: relative;
-    user-select: none;
-}
-.header span {
-    background-color: #ffffff;
-    display: block;
-    height: 2px;
-    position: relative;
-    transition: background-color .2s ease-out;
-    width: 18px;
-}
-.header span:before, .header span:after {
-    background: #ffffff;
-    content: '';
-    display: block;
-    height: 100%;
-    position: absolute;
-    transition: all .2s ease-out;
-    width: 100%;
-}
-.header span:before {
-    top: 5px;
-}
-.header span:after {
-    top: -5px;
-}
-.menu-icon  {
-    display: none;
-}
-.menu-icon :checked ~ ul {
-    max-height: 500px;
-}
-.menu-icon :checked ~ .header span {
-    background: transparent;
-}
-.menu-icon :checked ~ .header span:before {
-    transform: rotate(-45deg);
-}
-.menu-icon :checked ~ .header span:after {
-    transform: rotate(45deg);
-}
-.menu-icon :checked ~.header:not(.steps) span:before, .menu-icon :checked ~ .header:not(.steps) span:after {
-    top: 0;
-}
+
 
 @media screen and (min-width:834px) {
     ul {
