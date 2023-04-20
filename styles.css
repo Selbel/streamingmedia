@@ -130,6 +130,7 @@ main{
     padding: 5px;
     margin: 25px 0;
     background-color: #0D8DFB;
+    color: #ffffff;
 }
 .button2 {
     grid-column-start: 1;
