@@ -16,25 +16,63 @@ body{
         "button3"
 
 }
-header {
-    grid-area: header;
-}
-
-.header .menu {
+.header {
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
     overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+  }
+  
+  .header li a:hover,
+  .header .menu-btn:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  /* menu */
+  
+  .header .menu {
+    clear: both;
     max-height: 0;
     transition: max-height .2s ease-out;
   }
+  
+  /* menu icon */
+  
   .header .menu-icon {
     cursor: pointer;
     display: inline-block;
+    float: right;
     padding: 28px 20px;
     position: relative;
     user-select: none;
   }
   
   .header .menu-icon .navicon {
-    background: #ffffff;
+    background: #333;
     display: block;
     height: 2px;
     position: relative;
@@ -44,7 +82,7 @@ header {
   
   .header .menu-icon .navicon:before,
   .header .menu-icon .navicon:after {
-    background: #ffffff;
+    background: #333;
     content: '';
     display: block;
     height: 100%;
@@ -52,18 +90,23 @@ header {
     transition: all .2s ease-out;
     width: 100%;
   }
+  
   .header .menu-icon .navicon:before {
     top: 5px;
   }
+  
   .header .menu-icon .navicon:after {
     top: -5px;
   }
+  
+  /* menu btn */
+  
   .header .menu-btn {
     display: none;
   }
   
   .header .menu-btn:checked ~ .menu {
-    max-height: 500px;
+    max-height: 240px;
   }
   
   .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -83,17 +126,23 @@ header {
     top: 0;
   }
   
-@media (min-width: 834px) {
+  /* 48em = 768px */
+  
+  @media (min-width: 48em) {
     .header li {
-        overflow: visible;
-        position: absolute;
-        top: 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
     }
     .header .menu-icon {
       display: none;
-  }
+    }
 }
 main{
     grid-area: main;
@@ -107,12 +156,7 @@ main{
 }
 #songs{
     color: #590242;
-    background-color: #ffffff;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    justify-content:  space-between;
-    
-    
+    background-color: #ffffff; 
 }
 #songs h3 {
     text-align: center;
@@ -142,11 +186,12 @@ dt {
     padding-right: 5px;
 }
 audio {
-    postition: absolute;
+    position: absolute;
     bottom: 150px;
     left: 5px;
 }
-.button{
+.button {
+    text-decoration: none;
     background-color: #590242;
     color:#ffffff;
     padding: 10px;
@@ -184,7 +229,7 @@ audio::-webkit-media-controls-enclosure {
 #songs ::-webkit-scrollbar-thumb:hover{
     background: #020659;
 }
-#playlists::-webkit-scrollbar, #curated ::-webkit-scrollbar{
+#playlists ::-webkit-scrollbar, #curated ::-webkit-scrollbar{
     width: 15px;
 }
 #playlists ::-webkit-scrollbar-track, #curated ::-webkit-scrollbar-track {
