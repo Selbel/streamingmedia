@@ -12,70 +12,86 @@
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
             <ul class="menu">
-                <li><a href="#muza">MuzakMaker</a></li>
-                <li><a href="#trending">Trending Songs</a></li>
-                <li><a href="#your-playlists">Your playlists</a></li>
-                <li><a href="#curater-playlists">Curater Playllists</a></li>
-                <li><a href="#duke-sliver">Duke-silver.png</a></li>
+                <li><a href="#home">MuzakMaker</a></li>
+                <li><a href="#trending">Trending Songs<br />songs</a></li>
+                <li><a href="#your-playlists">Your playlists<br />playlists</a></li>
+                <li><a href="#curater-playlists">Curater Playllists<br />playlists</a></li>
+                <li><a href="pic"><img src="images/Duke-silver.png"></a></li>
             </ul>
-            <section id="jazz">
-                <h2>Smooth Jazz</h2>
-            <p>This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented crossover jazz became dominant in the 1980s and early 1990s.</p>
-            </section>
-    </header>
-    <main class="main"></main>
+        </nav>
+    <main class="main">
     
         <section id="songs">
             <h3>Trending Songs</h3> 
           <div class=" media-scroller">     
             <section>
-
+                <div>
                 <h4>Aloma</h4>
-                    <dl>Artist Cali</dl>
-                
-                    <img src="images/aloma-cover.png">
-                    <audio controls>
-                        <source src="audio/aloma.mp3"  type="audio/mpeg">
+                    <dl>
+                        <dt>Artist Cali</dt>
+                        <dd>Cali</dd>
+                    </dl>
+                </div>    
+                    <img src="images/aloma-cover.png" alt="dove">
+                    <audio 
+                        controls
+                        src="audio/aloma.mp3">
                     </audio>
-                    
             </section>
             <section>
-                
+                <div>
                 <h4>My Road</h4>
-                <dl>Artist Nestoerouk</dl>
-                <img src="images/my-road-cover.png">
-                <audio controls>
-                    <source src="audio/my-road.mp3"  type="audio/mpeg">
+                <dl>
+                    <dt>Artist</dt>
+                    <dd> Nestoerouk</dd>
+                </dl>
+                </div>
+                <img src="images/my-road-cover.png" alt="road in a desert">
+                <audio 
+                    controls
+                    src="audio/my-road.mp3">
                 </audio>    
-            
             </section>
             <section>
-                
+                <div>
                 <h4>Papya</h4>
-                <dl>Artist Dredstudio</dl>
+                    <dl>
+                        <dt>Artist</dt>
+                        <dd> Dredstudio</dd>
+                    </dl>
+                </div>
                 <img src="images/papaya-cover.png">
-                    <audio controls>
-                        <source src="audio/papaya.mp3"  type="audio/mpeg">
+                    <audio
+                        controls
+                        src="audio/papaya.mp3">
                     </audio>
-                
             </section>
             <section>
-                
+                <div>
                 <h4>Smoothies</h4>
-                <dl>Artist Black Rhomb</dl>
+                <dl>
+                    <dt>Artist</dt>
+                    <dd>Black Rhomb</dd>
+                </dl>
+                </div>
                 <img src="images/smoothies-cover.png">
-                    <audio controls>
-                        <source src="audio/smoothies.mp3"  type="audio/mpeg">
-                    </audio>    
-                
+                    <audio 
+                    controls
+                        src="audio/smoothies.mp3">
+                    </audio>                  
             </section>
             <section>
-                
+                <div>
                 <h4>Successful Performance</h4>
-                <dl>Artist Ricky Bombino</dl>
+                <dl>
+                    <dt>Artist</dt>
+                    <dd> Ricky Bombino</dd>
+                </dl>
+                </div>
                 <img src="images/successful-performance-cover.png">
-                    <audio controls>
-                        <source src="audio/successful-performance.mp3"  type="audio/mpeg">
+                    <audio
+                     controls
+                        src="audio/successful-performance.mp3">
                     </audio>
                 </div>
                 <section class="button">        
@@ -86,6 +102,7 @@
             
                 <h3>Your Playlists</h3>
         <section id="playlists">   
+            <div class="scroller">
             <section style="background-color: #0D8DFB;">
                 <img src="images/best-of-2020-cover.png">
                 <h4>Best of 2020</h4>
@@ -111,12 +128,14 @@
                 <h4>Smooth Study</h4>
                 <p>Background music to keep you going while you study.</p>
             </section>
+            </div>
         </section>
         <button class="button2">All your playlists</button>
         
         
                 <h3>Curted Playlists</h3>
         <section id="curated">
+            <div class="scroller">
             <section>
                 <img src="images/boozy-brunch-cover.png">
                 <h4>Boozy Brunch</h4>
@@ -142,6 +161,7 @@
                 <h4>Jazz Saxophone</h4>
                 <p>The greatest collection of your sax favorites.</p>
             </section>
+        </div>
         </section>
         <button class="button3">More curated</button>
     </main>
