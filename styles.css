@@ -128,22 +128,8 @@ body{
   
   /* 48em = 768px */
   
-  @media (min-width: 48em) {
-    .header li {
-      float: left;
-    }
-    .header li a {
-      padding: 20px 30px;
-    }
-    .header .menu {
-      clear: none;
-      float: right;
-      max-height: none;
-    }
-    .header .menu-icon {
-      display: none;
-    }
-}
+  
+
 main{
     grid-area: main;
     padding: 10px;
@@ -279,14 +265,14 @@ ul {
     max-height: 0;
     transition: max-height .2s ease-out;
 }
-label {
+.header {
     cursor: pointer;
     display: inline-block;
     padding: 28px 20px;
     position: relative;
     user-select: none;
 }
-label span {
+.header span {
     background-color: #ffffff;
     display: block;
     height: 2px;
@@ -294,7 +280,7 @@ label span {
     transition: background-color .2s ease-out;
     width: 18px;
 }
-label span:before, label span:after {
+.header span:before, .header span:after {
     background: #ffffff;
     content: '';
     display: block;
@@ -303,28 +289,28 @@ label span:before, label span:after {
     transition: all .2s ease-out;
     width: 100%;
 }
-label span:before {
+.header span:before {
     top: 5px;
 }
-label span:after {
+.header span:after {
     top: -5px;
 }
-input {
+.menu-icon  {
     display: none;
 }
-input:checked ~ ul {
+.menu-icon :checked ~ ul {
     max-height: 500px;
 }
-input:checked ~ label span {
+.menu-icon :checked ~ .header span {
     background: transparent;
 }
-input:checked ~ label span:before {
+.menu-icon :checked ~ .header span:before {
     transform: rotate(-45deg);
 }
-input:checked ~ label span:after {
+.menu-icon :checked ~ .header span:after {
     transform: rotate(45deg);
 }
-input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps) span:after {
+.menu-icon :checked ~.header:not(.steps) span:before, .menu-icon :checked ~ .header:not(.steps) span:after {
     top: 0;
 }
 
@@ -336,7 +322,8 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
-    label span, input {
-        display: none;
+    .header span, .menu-icon {
+            display: none;
+        }
+    
     }
-}
