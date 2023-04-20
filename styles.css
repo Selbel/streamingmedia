@@ -1,6 +1,3 @@
-html{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    
-}
 body{
     background-color: #020659;
     margin: 0 auto;
@@ -173,21 +170,21 @@ audio::-webkit-media-controls-play-button {
 audio::-webkit-media-controls-enclosure {
     background-color: rgba(255,255,255,.5);
 }
-#trending ::-webkit-scrollbar {
+#songs ::-webkit-scrollbar {
     width: 15px;
 }
-#trending ::-webkit-scrollbar-track{
+#songs ::-webkit-scrollbar-track{
     box-shadow: inset 0 0 15px #590242;
 
 }
-#trending ::-webkit-scrollbar-thumb {
+#songs ::-webkit-scrollbar-thumb {
     background: #590242;
     border-radius: 5px;
 }
-#trending ::-webkit-scrollbar-thumb:hover{
+#songs ::-webkit-scrollbar-thumb:hover{
     background: #020659;
 }
-#playlists ::-webkit-scrollbar, #curated ::-webkit-scrollbar{
+#playlists::-webkit-scrollbar, #curated ::-webkit-scrollbar{
     width: 15px;
 }
 #playlists ::-webkit-scrollbar-track, #curated ::-webkit-scrollbar-track {
