@@ -105,6 +105,9 @@ main{
     margin: 25px;
 
 }
+#jazz{
+    background-color: linear-grdient(#2104D9, #020659);
+}
 #songs{
     color: #590242;
     background-color: #ffffff;
