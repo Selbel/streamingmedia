@@ -129,6 +129,7 @@ main{
 #playlists section {
     padding: 5px;
     margin: 25px 0;
+    background-color: #0D8DFB;
 }
 .button2 {
     grid-column-start: 1;
