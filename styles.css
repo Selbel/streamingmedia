@@ -111,8 +111,8 @@ main{
     grid-column-start: 1;
     grid-column-end: 3;
     justify-content:  space-between;
-    scrollbar-width: normal;
-    scrollbar-color: #590242 #590200;
+    
+    
 }
 #songs h3 {
     text-align: center;
@@ -124,6 +124,7 @@ main{
     gap: var(--size-3);
     overflow-x: auto;
     overscroll-behavior-inline: contain;
+    scrollbar-color: #590242 #590200;
 }
 #songs section{}
 audio::-webkit-media-controls-mute-button {
