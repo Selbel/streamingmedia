@@ -55,7 +55,7 @@ body{
   /* menu */
   
   .header .menu {
-    clear: both;
+    overflow:hidden;
     max-height: 0;
     transition: max-height .2s ease-out;
   }
@@ -65,24 +65,21 @@ body{
   .header .menu-icon {
     cursor: pointer;
     display: inline-block;
-    float: right;
     padding: 28px 20px;
     position: relative;
     user-select: none;
   }
   
   .header .menu-icon .navicon {
-    background: #333;
+    background: #ffffff;
     display: block;
     height: 2px;
     position: relative;
     transition: background-color .2s ease-out;
     width: 18px;
   }
-  
-  .header .menu-icon .navicon:before,
   .header .menu-icon .navicon:after {
-    background: #333;
+    background: #ffffff;
     content: '';
     display: block;
     height: 100%;
@@ -106,7 +103,7 @@ body{
   }
   
   .header .menu-btn:checked ~ .menu {
-    max-height: 240px;
+    max-height: 500px;
   }
   
   .header .menu-btn:checked ~ .menu-icon .navicon {
