@@ -4,9 +4,25 @@ html{
 body{
     background-color: #020659;
     margin: 0 auto;
+    padding: 25px;
+    display: grid;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
+    grid-template-areas:
+        "header"
+        "main"
+        "songs"
+        "button1"
+        "playlists"
+        "button2"
+        "curated"
+        "button3"
+
 }
+header {
+    grid-area: header;
+}
+
 .header .menu {
     overflow: hidden;
     max-height: 0;
@@ -83,10 +99,10 @@ body{
   }
 }
 main{
-    display: grid;
-    grid-template-columns: repeat (2, 1fr);
-    grid-template-rows: repeat(7, 1fr);
+    grid-area: main;
+    padding: 10px;
     background-color: #ffffff;
+    margin: 25px;
 
 }
 #songs{
@@ -96,30 +112,35 @@ main{
     grid-column-end: 3;
     justify-content:  space-between;
 }
-#songs h3{
+#songs h3 {
     text-align: center;
 }
-.button1{
+.button1 {
     grid-column-start: 1;
     grid-column-end: 3; 
     background-color: #590242;
 }
-#playlists{
+#playlists {
     grid-column-start: 1;
     grid-column-end: 2;
     background-color: #2699FB;
+    padding: 10px;
 }
-.button2{
+#playlists section {
+    padding: 5px;
+    margin: 25px 0;
+}
+.button2 {
     grid-column-start: 1;
     grid-column-end: 2;
     background-color: #590242;
 }
-.button3{
+.button3 {
     grid-column-start: 2;
     grid-column-end: 3;
     background-color: #590242;
 }
-#curated{
+#curated {
     grid-column-start: 2;
     grid-column-end: 3;
     background-color: #2104D9;
