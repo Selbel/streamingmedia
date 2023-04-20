@@ -193,11 +193,7 @@ audio::-webkit-media-controls-enclosure {
 }
 #trending ::-webkit-scrollbar-thumb:hover{
     background: #020659;
-}
-.button1 {
-    grid-column-start: 1;
-    grid-column-end: 3; 
-    background-color: #590242;
+
 }
 #playlists {
     grid-column-start: 1;
@@ -210,16 +206,7 @@ audio::-webkit-media-controls-enclosure {
     margin: 25px 0;
     background-color: #0D8DFB;
     color: #ffffff;
-}
-.button2 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    background-color: #590242;
-}
-.button3 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    background-color: #590242;
+
 }
 #curated {
     grid-column-start: 2;
