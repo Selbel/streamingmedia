@@ -14,6 +14,7 @@ body{
         "button2"
         "curated"
         "button3"
+        "footer"
 
 }
 .header {
@@ -26,7 +27,7 @@ body{
     ;
   }
   
-  
+  .menu{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -140,10 +141,12 @@ main{
 }
 #jazz{
     background-color: linear-gradient(#f15ec5, #020659);
+    grid-area: header;
 }
 #songs{
     color: #590242;
     background-color: #ffffff; 
+    grid-area: songs;
 }
 #songs h3 {
     text-align: center;
@@ -244,6 +247,7 @@ h2, h3{
 
 }
 #playlists{
+    grid-area: playlists;
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     background-color: #2699FB;
@@ -258,6 +262,7 @@ h2, h3{
 
 }
 #curated {
+    grid-area: curated;
     grid-column-start: 2;
     grid-column-end: 3;
     background-color: #2104D9;
@@ -285,7 +290,20 @@ h2, h3{
             clear: none;
             float: right;
             max-height: none;
-          }      
-    
-    
+          }
+        }
+    body{
+        grid-template-columns: repeat(2,1fr);
+        grid-area:
+            "songs songs "
+            "button1"
+            "playlists curated "
+            "button2 button3"
+            "footer footer";
     }
+    footer{
+        grid-area: footer;
+    }      
+    
+    
+    
