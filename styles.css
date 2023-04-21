@@ -24,7 +24,7 @@ body{
     z-index: 3;
   }
   
-  .header .menu {
+  .menu {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -40,21 +40,21 @@ body{
   }
   
   .header li a:hover,
-  .header .menu-btn:hover {
+  .menu-btn:hover {
     background-color: #f4f4f4;
   }
   
-  .header .logo {
+ .logo {
     display: block;
     float: left;
-    font-size: 2em;
+    font-size: 3em;
     padding: 10px 20px;
     text-decoration: none;
   }
   
   /* menu */
   
-  .header .menu {
+  .menu {
     overflow:hidden;
     max-height: 0;
     transition: max-height .2s ease-out;
@@ -62,7 +62,7 @@ body{
   
   /* menu icon */
   
-  .header .menu-icon {
+  .menu-icon {
     cursor: pointer;
     display: inline-block;
     padding: 28px 20px;
@@ -70,16 +70,16 @@ body{
     user-select: none;
   }
   
-  .header .menu-icon .navicon {
-    background: #2104D9;
+  .menu-icon .navicon {
+    background: #ffffff;
     display: block;
     height: 2px;
     position: relative;
     transition: background-color .2s ease-out;
     width: 18px;
   }
-  .header .menu-icon .navicon:before, .menu-icon .navicon:after {
-    background: #2104D9;
+  .menu-icon .navicon:before, .menu-icon .navicon:after {
+    background: #f4f4f4;
     content: '';
     display: block;
     height: 100%;
@@ -88,29 +88,29 @@ body{
     width: 100%;
   }
   
-  .header .menu-icon .navicon:before {
+ .menu-icon .navicon:before {
     top: 5px;
   }
   
-  .header .menu-icon .navicon:after {
+ .menu-icon .navicon:after {
     top: -5px;
   }
   
   /* menu btn */
   
-  .header .menu-btn {
+ .menu-btn {
     display: none;
   }
   
-  .header .menu-btn:checked ~ .menu {
+ .menu-btn:checked ~ .menu {
     max-height: 500px;
   }
   
-  .header .menu-btn:checked ~ .menu-icon .navicon {
+ .menu-btn:checked ~ .menu-icon .navicon {
     background: transparent;
   }
   
-  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+ .menu-btn:checked ~ .menu-icon .navicon:before {
     transform: rotate(-45deg);
   }
   
@@ -118,8 +118,8 @@ body{
     transform: rotate(45deg);
   }
   
-  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+ .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     top: 0;
   }
   
