@@ -292,7 +292,7 @@ h2, h3{
             max-height: none;
           }
         
-    body{
+    .main{
         grid-template-columns: repeat(2,1fr);
         grid-area:
             "songs songs "
