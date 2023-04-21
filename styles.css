@@ -17,14 +17,14 @@ body{
 
 }
 .header {
-    background-color: #fff;
+    background-color: #2104D9;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
     z-index: 3;
   }
   
-  .header ul {
+  .header .menu {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -78,8 +78,8 @@ body{
     transition: background-color .2s ease-out;
     width: 18px;
   }
-  .header .menu-icon .navicon:after {
-    background: #2104D9;
+  .header .menu-icon .navicon:before, .menu-icon .navicon:after {
+    background: #ffffff;
     content: '';
     display: block;
     height: 100%;
