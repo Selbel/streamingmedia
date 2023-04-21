@@ -73,7 +73,7 @@ body{
   }
   
   .menu-icon .navicon {
-    background: #2cf603;
+    background: #ffffff;
     display: block;
     height: 2px;
     position: relative;
@@ -263,7 +263,7 @@ h2, h3{
 
 
 @media screen and (min-width:834px) {
-    ul {
+    .menu {
         overflow: visible;
         position: absolute;
         top: 0;
@@ -274,15 +274,5 @@ h2, h3{
             display: none;
         }
     
-        .header li {
-            float: left;
-          }
-          .header li a {
-            padding: 20px 30px;
-          }
-          .header .menu {
-            clear: none;
-            float: right;
-            max-height: none;
-          }      
+    
     }
