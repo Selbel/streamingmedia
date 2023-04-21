@@ -152,6 +152,9 @@ main{
 #songs h3 {
     margin-top: 50px;
 }
+#songs dl{
+    padding:50px;
+}
 .media-scroller {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
