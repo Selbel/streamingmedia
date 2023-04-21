@@ -279,15 +279,9 @@ h2, h3{
 
 
 @media screen and (min-width:834px) {
-    .content{
-        grid-template-columns: repeat(2,1fr);
-        grid-template-areas:
-            "header header"
-            "songs songs "
-            "button1"
-            "playlists curated "
-            "button2 button3"
-            "footer footer";
+    .both {
+            display:flex;
+        
     }
     .menu {
         overflow: visible;
@@ -313,9 +307,9 @@ h2, h3{
           .button{
             float: right;
 } 
+}
     footer{
         grid-area: footer;
     }      
-    
     
     
