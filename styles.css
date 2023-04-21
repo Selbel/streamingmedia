@@ -147,6 +147,7 @@ main{
     color: #590242;
     background-color: #ffffff; 
     grid-area: songs;
+    margin-bottom: 50px;
 }
 #songs h3 {
     margin-top: 50px;
