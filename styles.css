@@ -29,7 +29,7 @@ body{
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #fff;
+    background-color: #2104D9;
   }
   
   .header li a {
@@ -79,7 +79,7 @@ body{
     width: 18px;
   }
   .header .menu-icon .navicon:before, .menu-icon .navicon:after {
-    background: #ffffff;
+    background: #2104D9;
     content: '';
     display: block;
     height: 100%;
