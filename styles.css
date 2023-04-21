@@ -1,4 +1,4 @@
-.conatiner{
+.content{
     background-color: #020659;
     margin: 0 auto;
     padding: 25px;
@@ -279,7 +279,7 @@ h2, h3{
 
 
 @media screen and (min-width:834px) {
-    .container{
+    .content{
         grid-template-columns: repeat(2,1fr);
         grid-template-areas:
             "header header"
@@ -310,6 +310,8 @@ h2, h3{
             float: right;
             max-height: none;
           }
+          .button{
+            float: right;
 } 
     footer{
         grid-area: footer;
