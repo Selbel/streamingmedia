@@ -291,7 +291,7 @@ h2, h3{
             float: right;
             max-height: none;
           }
-        }
+        
     body{
         grid-template-columns: repeat(2,1fr);
         grid-area:
@@ -301,6 +301,7 @@ h2, h3{
             "button2 button3"
             "footer footer";
     }
+}
     footer{
         grid-area: footer;
     }      
