@@ -270,11 +270,11 @@ h2, h3{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
-    .header span, .menu-icon {
+    .navicon, .menu-icon {
             display: none;
         }
         .header li {
-            float: right;
+            float: left;
           }
           .header li a {
             padding: 20px 30px;
