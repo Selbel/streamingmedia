@@ -35,14 +35,14 @@ body{
   .header li a {
     display: block;
     padding: 20px 20px;
-    border-right: 1px solid #2aca60;
+    border-right: 1px solid #2104D9;
     text-decoration: none;
-    color: #980a0a;
+    color: #ffffff;
   }
   
   .header li a:hover,
   .menu-btn:hover {
-    background-color: #ed30b1;
+    background-color: #ffffff;
   }
   
  .logo {
@@ -73,7 +73,7 @@ body{
   }
   
   .menu-icon .navicon {
-    background: #2104D9;
+    background: #2cf603;
     display: block;
     height: 2px;
     position: relative;
@@ -81,7 +81,7 @@ body{
     width: 18px;
   }
   .menu-icon .navicon:before, .menu-icon .navicon:after {
-    background: #b6a61b;
+    background: #ffffff;
     content: '';
     display: block;
     height: 100%;
