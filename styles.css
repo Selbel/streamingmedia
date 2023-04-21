@@ -149,7 +149,7 @@ main{
     grid-area: songs;
 }
 #songs h3 {
-    text-align: center;
+    margin-top: 50px;
 }
 .media-scroller {
     display: grid;
@@ -292,9 +292,10 @@ h2, h3{
             max-height: none;
           }
         
-    .main{
+    .body{
         grid-template-columns: repeat(2,1fr);
         grid-template-areas:
+            "header header"
             "songs songs "
             "button1"
             "playlists curated "
