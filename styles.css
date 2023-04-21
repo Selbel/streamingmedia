@@ -294,7 +294,7 @@ h2, h3{
         
     .main{
         grid-template-columns: repeat(2,1fr);
-        grid-area:
+        grid-template-areas:
             "songs songs "
             "button1"
             "playlists curated "
