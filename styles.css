@@ -35,14 +35,14 @@ body{
   .header li a {
     display: block;
     padding: 20px 20px;
-    border-right: 1px solid #f4f4f4;
+    border-right: 1px solid #2aca60;
     text-decoration: none;
-    color: #ffffff;
+    color: #980a0a;
   }
   
   .header li a:hover,
   .menu-btn:hover {
-    background-color: #f4f4f4;
+    background-color: #ed30b1;
   }
   
  .logo {
@@ -81,7 +81,7 @@ body{
     width: 18px;
   }
   .menu-icon .navicon:before, .menu-icon .navicon:after {
-    background: #f4f4f4;
+    background: #b6a61b;
     content: '';
     display: block;
     height: 100%;
@@ -137,7 +137,7 @@ main{
 
 }
 #jazz{
-    background-color: linear-gradient(#2104D9, #020659);
+    background-color: linear-gradient(#f15ec5, #020659);
 }
 #songs{
     color: #590242;
