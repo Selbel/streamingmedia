@@ -135,7 +135,7 @@ main{
 
 }
 #jazz{
-    background-color: linear-grdient(#2104D9, #020659);
+    background-color: linear-gradient(#2104D9, #020659);
 }
 #songs{
     color: #590242;
@@ -240,17 +240,17 @@ h2, h3{
 
 }
 #playlists{
-    grid-column-start: 1;
-    grid-column-end: 2;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     background-color: #2699FB;
     padding: 10px;
 }
 #playlists section {
     padding: 5px;
-    margin: 25px 0;
+    margin: 10px;
     background-color: #0D8DFB;
     color: #ffffff;
-    gap: 5px;
+    
 
 }
 #curated {
