@@ -250,6 +250,7 @@ h2, h3{
     margin: 25px 0;
     background-color: #0D8DFB;
     color: #ffffff;
+    gap: 5px;
 
 }
 #curated {
