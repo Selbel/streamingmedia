@@ -301,9 +301,7 @@ h2, h3{
 
 @media screen and (min-width:834px) {
     .both {
-            display:flex;
-                
-        
+            display:flex;  
     }
     .menu {
         overflow: visible;
@@ -318,17 +316,20 @@ h2, h3{
         .header li {
             float: left;
           }
-          .header li a {
+        .header li a {
             padding: 20px 30px;
           }
-          .menu {
+        .menu {
             clear: none;
             float: right;
             max-height: none;
           }
-          .button{
+        .button{
             float: right;
 } 
+        .scroll2{
+            transform: rotate(60deg);
+        }
 }
     footer{
         grid-area: footer;
