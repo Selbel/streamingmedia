@@ -3,10 +3,11 @@
     margin: 0 auto;
     padding: 25px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
+    
     grid-template-areas:
         "header"
         "main"
