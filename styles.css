@@ -169,7 +169,7 @@ main{
     position:absolute;
     top: 251px;
     background-color: rgba(255,255,255,.75);
-    padding: 15px;
+    padding: 5px;
     height: 50px;
     width: 350px;
 }
@@ -326,13 +326,6 @@ h2, h3{
           }
         .button{
             float: right;
-} 
-        #playlists{
-            transform: rotate(90deg);
-        }
-        .scroll3{
-            transform: rotate(90deg);
-        
 }
     footer{
         grid-area: footer;
