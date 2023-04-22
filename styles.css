@@ -327,9 +327,11 @@ h2, h3{
         .button{
             float: right;
 } 
-        #playlists #curated{
+        #playlists{
             transform: rotate(90deg);
         }
+        .scroll3{
+            transform: rotate(90deg);
         
 }
     footer{
