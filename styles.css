@@ -26,10 +26,10 @@ body{
 .header {
     background-color: #2104D9;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-    align-content: center;
+    
     width: 100%;
     z-index: ;
-    grid-area: header header;
+    grid-area: header;
   }
   
   .menu{
