@@ -23,9 +23,9 @@
 .header {
     background-color: #2104D9;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-    position: fixed;
+    position:;
     width: 100%;
-    z-index: 3;
+    z-index: ;
     grid-area: header
     ;
   }
