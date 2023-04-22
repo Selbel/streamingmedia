@@ -272,8 +272,8 @@ h2, h3{
 }
 #playlists{
     grid-area: playlists;
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1f;
+    grid-column-start: 1;
+    grid-column-end: 2;
     background-color: #2699FB;
     padding: 10px;
 }
@@ -326,6 +326,7 @@ h2, h3{
           }
         .button{
             float: right;
+
 }
     footer{
         grid-area: footer;
