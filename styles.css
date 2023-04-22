@@ -2,7 +2,8 @@
     background-color: #020659;
     margin: 0 auto;
     padding: 25px;
-    display: grid;
+    display: flex;
+    justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
     grid-template-areas:
