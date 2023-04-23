@@ -327,6 +327,7 @@ h2, h3{
             float: right;
 
 }
+}
     footer{
         grid-area: footer;
     }      
