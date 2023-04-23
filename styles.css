@@ -2,7 +2,7 @@ html {
     background-color: #020659;
     padding:25px;
 }
-.container{
+body{
     
     margin: 0 auto;
     padding: 25px;
@@ -253,7 +253,7 @@ h2, h3{
 }
 .scroll2 {
     display: grid;
-    grid-template-columns: repeat(1fr 1fr);
+    grid-template-columns: 1fr 1fr;
     overflow-x: auto;
     overflow-y: hidden;
 }
@@ -264,7 +264,7 @@ h2, h3{
 }
 .scroll3 {
     display: grid;
-    grid-template-columns: repeat(1fr 1fr);
+    grid-template-columns: 1fr 1fr;
     overflow-x: auto;
     overflow-y: hidden;
 }
