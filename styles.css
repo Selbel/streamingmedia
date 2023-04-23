@@ -13,6 +13,7 @@ html {
     
     grid-template-areas:
         "header"
+        "tittle"
         "main"
         "songs"
         "button1"
@@ -33,6 +34,7 @@ html {
   #jazz{
     color:#ffffff;
     text-align-last: left;
+    grid-area: title;
   }
   #title{
     font-size: medium;
