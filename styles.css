@@ -28,11 +28,11 @@ html {
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     color: #ffffff;
     width: 100%;
-    grid-area: header header;
+    grid-area: header;
   }
   #jazz{
     color:#ffffff;
-    text-align-last: left;
+    
   }
   .menu{
     margin: 0;
@@ -274,7 +274,8 @@ h2, h3{
 }
 #playlists{
     grid-area: playlists;
-
+    grid-column-start: 1;
+    grid-column-end: 2;
     background-color: #2699FB;
     padding: 10px;
 }
@@ -289,6 +290,8 @@ h2, h3{
 #curated {
     grid-area: curated;
     background-color: #2104D9;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 #curated section {
         padding: 5px;
