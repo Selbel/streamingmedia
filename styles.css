@@ -34,6 +34,9 @@ html {
     color:#ffffff;
     text-align-last: left;
   }
+  #title{
+    font-size: medium;
+  }
   .menu{
     margin: 0;
     padding: 0;
