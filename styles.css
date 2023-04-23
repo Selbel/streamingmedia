@@ -271,8 +271,7 @@ h2, h3{
 }
 #playlists{
     grid-area: playlists;
-    grid-column-start: 1;
-    grid-column-end: 2;
+
     background-color: #2699FB;
     padding: 10px;
 }
@@ -286,8 +285,6 @@ h2, h3{
 }
 #curated {
     grid-area: curated;
-    grid-column-start: 2;
-    grid-column-end: 3;
     background-color: #2104D9;
 }
     #curated section {
@@ -325,6 +322,7 @@ h2, h3{
           }
         .button{
             float: right;
+        .container{}
 
 }
 }
