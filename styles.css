@@ -9,7 +9,7 @@ body{
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
-    justify-content:space-around;
+    
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
         "header"
