@@ -30,7 +30,10 @@ html {
     width: 100%;
     grid-area: header header;
   }
-  
+  #jazz{
+    color:#ffffff;
+    float: left;
+  }
   .menu{
     margin: 0;
     padding: 0;
@@ -322,12 +325,13 @@ h2, h3{
           }
         .button{
             float: right;
+        }
         .container{
-
+            
         }
 
 }
-}
+
     footer{
         grid-area: footer;
     }      
