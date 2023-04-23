@@ -290,8 +290,8 @@ h2, h3{
 #curated {
     grid-area: curated;
     background-color: #2104D9;
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 #curated section {
         padding: 5px;
