@@ -9,7 +9,7 @@ html {
     display: grid;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
-    grid-template-columns: 1fr 1fr;
+    
     
     grid-template-areas:
         "header"
