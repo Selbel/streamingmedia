@@ -9,7 +9,7 @@ body{
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
-    
+    grid-template-columns: repeat(2,1fr);
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
         "header"
@@ -26,7 +26,7 @@ body{
 .header {
     background-color: #2104D9;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-    
+    color: #ffffff;
     width: 100%;
     z-index: ;
     grid-area: header;
