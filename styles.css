@@ -9,8 +9,8 @@ body{
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-columns: 1fr 1fr;
+
+    grid-template-columns:repeat(2, 1fr);
     grid-template-areas:
         "header"
         "main"
