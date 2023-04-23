@@ -325,6 +325,14 @@ h2, h3{
             max-height: none;
           }
           .container{grid-template-columns: (2, 1fr);
+            grid-template-areas: 
+            "header header"
+            "songs songs"
+            "button1"
+            "playlists curated"
+            "button2"
+            "button3"
+            "footer footer";
         }
         
         
