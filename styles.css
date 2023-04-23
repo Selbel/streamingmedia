@@ -9,7 +9,7 @@ body{
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
-
+    grid-template-columns: auto auto;
     
     grid-template-areas:
         "header"
@@ -28,7 +28,6 @@ body{
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     color: #ffffff;
     width: 100%;
-    z-index: ;
     grid-area: header;
   }
   
@@ -142,11 +141,6 @@ main{
     padding:10px ;
     background-color: #ffffff;
     margin: 25px;
-
-}
-#jazz{
-    background-color: linear-gradient(#f15ec5, #020659);
-    grid-area: header;
 }
 #songs{
     color: #590242;
