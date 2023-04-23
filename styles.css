@@ -30,9 +30,6 @@ html {
     width: 100%;
     grid-area: header header;
   }
-  .header h2{
-    float:left;
-  }
   
   .menu{
     margin: 0;
