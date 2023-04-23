@@ -1,4 +1,4 @@
-html {
+body {
     background-color: #020659;
     padding:25px;
 }
@@ -37,7 +37,7 @@ html {
     grid-area: title;
   }
   #title{
-    font-size: medium;
+    font-size: large;
   }
   .menu{
     margin: 0;
