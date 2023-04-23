@@ -6,9 +6,10 @@ body{
     
     margin: 0 auto;
     padding: 25px;
-    display: grid;
+    display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
         "header"
         "main"
