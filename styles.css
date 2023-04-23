@@ -9,7 +9,7 @@ html {
     display: grid;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     
     grid-template-areas:
         "header"
@@ -28,7 +28,7 @@ html {
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     color: #ffffff;
     width: 100%;
-    grid-area: header;
+    grid-area: header header;
   }
   
   .menu{
