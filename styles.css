@@ -32,7 +32,7 @@ html {
   }
   #jazz{
     color:#ffffff;
-    float: left;
+    text-align-last: left;
   }
   .menu{
     margin: 0;
